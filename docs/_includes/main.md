@@ -31,21 +31,21 @@ Join us for:
 {% assign slug = event.Date | date:"%A-%d-%B-%Y" %}
 
 <div class="card-group event-card text-dark mb-2">
-    <div class="card mb-0 border-0">
-        <div class="card-body py-4 border-bottom {% if event.Date == dateToday  %}bg-light{% endif %}">
-            <div class="row">
-                <div class="col-lg-3 col-md-5 date pb-4">
-                    <p class="p-0 m-0 display-8">{{ event.Date | date: "%A" }}</p>
-                    <p class="p-0 m-0 display-1">{{ event.Date | date: "%d" }}</p>
-                    <p class="p-0 m-0 display-8">{{ event.Date | date: "%B" }}</p>
-                    {% if event.Date == dateToday  %}<h5 class="p-0 m-0 display-8 ">TODAY</h5>{% endif %}
-                </div>
-                <div class="col-lg-9 col-md-7">
-                    <div class="d-flex flex-column">
-                    {% if event.Presents %}<h5>{{ event.Presents }}</h5>{% endif %}
-                        <h3 class="card-title text-capitalize mt-0">
-                            <strong markdown="1">{% if event.Cancelled =="1" %}CANCELLED <br>{% endif %}[{{ event.Artists }}]({{ '/live#' | relative_url }}#{{ slug | downcase  }})</strong>                    
-                        </h3>
+<div class="card mb-0 border-0">
+<div class="card-body py-4 border-bottom {% if event.Date == dateToday  %}bg-light{% endif %}">
+<div class="row">
+<div class="col-lg-3 col-md-5 date pb-4">
+<p class="p-0 m-0 display-8">{{ event.Date | date: "%A" }}</p>
+<p class="p-0 m-0 display-1">{{ event.Date | date: "%d" }}</p>
+<p class="p-0 m-0 display-8">{{ event.Date | date: "%B" }}</p>
+{% if event.Date == dateToday  %}<h5 class="p-0 m-0 display-8 ">TODAY</h5>{% endif %}
+</div>
+<div class="col-lg-9 col-md-7">
+<div class="d-flex flex-column">
+{% if event.Presents %}<h5>{{ event.Presents }}</h5>{% endif %}
+<h3 class="card-title text-capitalize mt-0">
+<strong markdown="1">{% if event.Cancelled =="1" %}CANCELLED <br>{% endif %}[{{ event.Artists }}]({{ '/live#' | relative_url }}#{{ slug | downcase  }})</strong>                    
+</h3>
 <div class="card-text" markdown="1">**[{{ ThisVenue.Name }}]( {{ ThisVenue.url }} )**{: class="venue-name" }
 {% if event.Cancelled =="1" %}
 {{ event.CancelledText }}
@@ -62,11 +62,11 @@ Join us for:
 {% if event.Tickets %} [Buy Tickets]({{ event.Tickets }}){% endif %}
 {% endif %}
 </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 {% assign week-date = event.Date %}
 {%- endif -%}
