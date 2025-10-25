@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Music at The Chip 'n' Ern
 class: 'home-template'
 navigation: True
 #logo: /assets/images/splashes/vince_cayo_at_the_chip.jpg
