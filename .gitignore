@@ -4,8 +4,7 @@ docs/_site
 docs/vendor
 docs/.jekyll-cache/
 docs/.jekyll-metadata
-docs/Gemfile
-docs/Gemfile.lock
+
 
 # OS generated files #
 ######################
