@@ -5,6 +5,7 @@ markdown: kramdown
 highlighter: rouge
 # paginate: 5
 language: 'en-uk'
+theme: minima
 
 # Website info
 name: "Music at the Chip 'n' Ern"
