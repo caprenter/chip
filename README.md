@@ -1,7 +1,7 @@
 # Music at the Chip 'n' Ern Website
 
 ## About
-This is a static site that displays at https://
+This is a static site that displays at https://caprenter.github.io/chip
 
 ## Deployment
 It is deployed via the docs directory of the main branch of this repo using Github Pages.
