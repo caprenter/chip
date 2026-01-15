@@ -19,7 +19,7 @@ cover: splashes/vince_cayo_at_the_chip.jpg
 <div class="vertical">
         <div class="main-header-content inner">
            <h1 class="page-title">Live Music</h1>
-           <h2 class="page-sub-title"> Every Wednesday & Thursday</h2>
+           <h2 class="page-sub-title"> In the heart of Bingley</h2>
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
