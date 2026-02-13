@@ -14,9 +14,21 @@ Join us for:
 
 # Coming soon
 {% assign dateToday = 'now' | date: "%Y-%m-%d" %}
+{% assign dayToday = dateToday | date: "%u" %}
 {% assign events = site.data.events | sort: "Date"  %}
 {% assign artists = site.data.artists %}
 {% assign venues = site.data.venues %}
+{% assign count = 0 %}
+
+{% assign unixtime = dateToday | date: "%s" %}
+{% assign daystoadd = 3 | minus: dayToday %}
+{% if daystoadd < 0 %}
+{% assign daystoadd = daystoadd | plus:7 %}
+{% endif %}
+{% assign secondstoadd = daystoadd | times: 86400 %}
+{% assign WednesdayUnix = unixtime | plus: secondstoadd %}
+{% assign wednesdayDate = WednesdayUnix | date: "%Y-%m-%d" %}
+{% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
 
 <div class="container p-0">
 <div class="row">
@@ -24,11 +36,31 @@ Join us for:
 {% for event in events %}
 {% if event.Venue == "Chip 'n' Ern" %}
 {% if event.Date >= dateToday  %}
+{% assign count = count | plus:1 %}
 {% if event.Artists and event.Artists != nil and event.Artists != "" %}
 {% assign eventYear = event.Date | date: "%Y" %}
-{% assign eventDay = event.Date | date: "%j" | plus: 0 %}
-
+{% assign eventDay = event.Date | date: "%u" %}
+{% assign eventDayOfYear = event.Date | date: "%j" %}
+{% assign dayToday = dateToday | date: "%u" %}
 {% assign slug = event.Date | date:"%A-%d-%B-%Y" %}
+
+{% if dayToday <= "3" and dayToday <= eventDay and count == 1 %}
+{% include traditional-music.md wednesday=wednesdayDate %}
+{% assign unixtime = wednesdayDate | date: "%s" %}
+{% assign secondstoadd = 7 | times: 86400 %}
+{% assign WednesdayUnix = unixtime | plus: secondstoadd %}
+{% assign wednesdayDate = WednesdayUnix | date: "%Y-%m-%d" %}
+{% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
+{% endif %}
+
+{% if count > 1 and eventDayOfYear >= wednesdayDateDayOfYear | plus: 7 %}
+{% include traditional-music.md wednesday=wednesdayDate %}
+{% assign unixtime = wednesdayDate | date: "%s" %}
+{% assign secondstoadd = 7 | times: 86400 %}
+{% assign WednesdayUnix = unixtime | plus: secondstoadd %}
+{% assign wednesdayDate = WednesdayUnix | date: "%Y-%m-%d" %}
+{% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
+{% endif %}
 
 <div class="card-group event-card text-dark mb-2">
 <div class="card mb-0 border-0">

@@ -11,7 +11,15 @@
     
 </div>
 </div>
-
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+  <script>
+    addBackToTop({
+      diameter: 48,
+      innerHTML: '<svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>',
+      backgroundColor: 'rgb(33 37 41)',
+      textColor: '#fff'
+    })
+  </script>
 <div class="copyright">
     <p>All content &copy; the respective bands and artists &amp; Music at the Chip 'n' Ern unless otherwise stated. <a href="{% if site.baseurl %}{{ site.baseurl }}{% endif %}/privacy">Privacy Statement</a></p>
 </div>

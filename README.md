@@ -114,6 +114,28 @@ Fetch the data with the script:
     #Fetch and commit and push changes to origin main
     ./fetch_events_data.sh update push
 
+# Find Next Wednesday
+
+in `_includes/tradtitional-music.md` we need to find the next Wednesday..
+
+    # to find the next Wednesday
+    {% assign unixtime = dateToday | date: "%s" %} // get today's unix date
+    // dayToday is day of week number, Monday is 1. 
+    // If Monday we need to add two days, Tuesday 1, Wed, none.
+    {% assign daystoadd = 3 | minus: dayToday %} // dayToday is day of week number, Monday is 1. 
+    // If it's Thursday to Sunday this turns -ve
+    //{% if daystoadd < 0 %}
+    // So add 7 days to get us to the next Wednesday
+    {% assign daystoadd = daystoadd | plus:7 %}
+    {% endif %}
+    // Calculate new unixtime
+    {% assign secondstoadd = daystoadd | times: 86400 %}
+    {% assign WednesdayUnix = unixtime | plus: secondstoadd %}
+    // Covert to a working date
+    {% assign wednesdayDate = WednesdayUnix | date: "%Y-%m-%d" %}
+    // Store the day of the year so we can use it later
+    {% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
+
 # Testing
 
 If you have set up your development environment with Docker then you can run the tests against your local site or the live site using Behat.
