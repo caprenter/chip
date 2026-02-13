@@ -16,7 +16,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Great music at an intimate venue 
 logo: 'assets/images/logo.jpg' # No leading slash!
 author: Music at the Chip 'n' Ern
-#url: "https://Music at the Chip 'n' Ern.me.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chip.rumbleupbingley.co.uk/" # the base hostname & protocol for your site, e.g. http://example.com
 #baseurl: "" # the subpath of your site, e.g. /blog
 #google_analytics: UA-111111111-1
 #twitter:
@@ -67,7 +67,7 @@ safe: false
 lsi: false
 username: caprenter
 repo: chip
-branch: master
+branch: main
 #relative_source: ../jasper/
 #destination: ../jasper-pages/
 # production_url:  https://Music at the Chip 'n' Ern.me.uk/
