@@ -22,6 +22,9 @@
 
 */
 
+#back-to-top {
+    z-index: 10;
+}
 .ns_pink {
     background-color: #ed74aa;
 }
