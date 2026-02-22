@@ -29,7 +29,7 @@ The space is approx 8m x 5m, with tables, seating and a small stage area.
 
 It is an ideal space for Music. Acoustic music and works well as an 'intimate' performance space. 
 
-It already hosts ad hoc music event, Vinyl Revival once a month (third Sunday), some meetings, and the Graphite club on alternate Wednesdays.
+It already hosts ad hoc music events, Vinyl Revival once a month (third Sunday), some meetings, and the Graphite club on alternate Wednesdays.
 
 Its biggest drawback is that it is an upstairs space accessed by stairs, so difficult for people with mobility issues.
 

@@ -1,4 +1,4 @@
-{% assign wednesday = include.wednesday %}
+{% assign wednesday = include.wednesday %}  
 <div class="card-group event-card text-dark mb-2">
 <div class="card mb-0 border-0">
 <div class="card-body py-4 border-bottom {% if event.Date == dateToday  %}bg-light{% endif %}">
