@@ -19,7 +19,6 @@ Join us for:
 {% assign artists = site.data.artists %}
 {% assign venues = site.data.venues %}
 {% assign count = 0 %}
-
 {% assign unixtime = dateToday | date: "%s" %}
 {% assign daystoadd = 3 | minus: dayToday %}
 {% if daystoadd < 0 %}
@@ -41,10 +40,10 @@ Join us for:
 {% assign eventYear = event.Date | date: "%Y" %}
 {% assign eventDay = event.Date | date: "%u" %}
 {% assign eventDayOfYear = event.Date | date: "%j" %}
-{% assign dayToday = dateToday | date: "%u" %}
+{% assign dayTodayOfYear = dateToday | date: "%j" %}
 {% assign slug = event.Date | date:"%A-%d-%B-%Y" %}
 
-{% if dayToday <= "3" and dayToday <= eventDay and count == 1 %}
+{% if dayTodayOfYear <= eventDayOfYear and wednesdayDateDayOfYear <= eventDayOfYear and count == 1 %}
 {% include traditional-music.md wednesday=wednesdayDate %}
 {% assign unixtime = wednesdayDate | date: "%s" %}
 {% assign secondstoadd = 7 | times: 86400 %}
