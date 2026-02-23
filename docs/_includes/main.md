@@ -74,8 +74,8 @@ Join us for:
 <div class="col-lg-9 col-md-7">
 <div class="d-flex flex-column">
 {% if event.Presents %}<h5>{{ event.Presents }}</h5>{% endif %}
-<h3 class="card-title text-capitalize mt-0">
-<strong markdown="1">{% if event.Cancelled =="1" %}CANCELLED <br>{% endif %}[{{ event.Artists }}]({{ '/live#' | relative_url }}#{{ slug | downcase  }})</strong>                    
+<h3 class="card-title text-capitalize mt-0 {% if event.Artists == 'Available' %}text-muted{% endif %}">
+<strong markdown="1">{% if event.Cancelled =="1" %}CANCELLED <br>{% endif %}{{ event.Artists }}</strong>                    
 </h3>
 <div class="card-text" markdown="1">**[{{ ThisVenue.Name }}]( {{ ThisVenue.url }} )**{: class="venue-name" }
 {% if event.Cancelled =="1" %}
