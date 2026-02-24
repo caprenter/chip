@@ -1,4 +1,5 @@
 [Home]({{ site.url }}{% if site.baseurl %}{{ site.baseurl }}{% endif %})<br/>
+[What's On]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/#whats-on)<br/>
 [About]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/about)<br/>
 <!-- [Gallery]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/gallery )<br/> -->
 [Contact]({% if site.baseurl %}{{ site.baseurl }}{% endif %}/contact )<br/>

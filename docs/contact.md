@@ -5,6 +5,7 @@ cover: splashes/vince_cayo_at_the_chip.jpg #no leading slash
 
 navigation: true
 ---
+Chip 'N' Ern, 73 Main St, Bingley, BD16 2JA
 
 # Wanna play at the Chip? 
 

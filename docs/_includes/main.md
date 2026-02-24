@@ -2,17 +2,50 @@
 <section class="main-page">
 <div markdown="1">
 
+<h1 class="text-center">Music at the Chip 'n' Ern</h1>
 <!-- # Every Thursday
 ## Doors 7:30pm. Music from 8pm  -->
-# Music at the Chip'n' Ern
 
-Join us for:
-* Live traditional music in the pub every Wednesday evening
-* Live acoustic music in the upstairs room every Thursday evening
-* Ad hoc music events featuring touring musicians, album launches, etc
-* Vinyl Revival on the third Sunday of the month 4pm - late.  
+ <div class="px-4 py-5 my-5 text-center bg-light" markdown="1">
 
-# Coming soon
+## Every Wednesday Evening
+
+**Live Traditional Music** in the pub 
+
+## Every Thursday Evening
+
+**Live Acoustic Music** in the upstairs room from **local artists**<br>
+or The Bingley Ukulele Group<br>
+(1st/3rd/5th Thursday of the month).
+
+## Third Sunday of the month
+
+Come and be the **DJ** at **Vinyl Revival** on the 3rd Sunday of the month.<br>
+Playing **vinyl records** from 4pm to late.  
+
+## Touring musicians, album launches...
+
+We also host **ad hoc music events** featuring **touring musicians**, **album launches**, and so on.
+
+</div>
+
+ <div class="px-4 py-5 my-5 text-center bg-light">
+    <h1 class="display-5 fw-bold">Wanna play at the Chip'n' Ern?</h1>
+    <div class="col-lg-6 mx-auto" markdown="1">
+
+Contact us via this <a href="https://forms.gle/KFJNwX2jU95YL1rU8">booking form</a>.
+
+Or just turn up and join in with the traditional music in the pub every Wednesday evening, and the Bingley Ukulele Group that meets upstairs on the 1st, 3rd, and 5th Thursdays of the month.
+
+</div>
+<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+<a type="button" class="btn btn-secondary btn-lg px-4 gap-3 text-white" href="https://forms.gle/KFJNwX2jU95YL1rU8">Booking Form</a>
+</div>
+</div>
+
+
+
+# What's On
 {% assign dateToday = 'now' | date: "%Y-%m-%d" %}
 {% assign dayToday = dateToday | date: "%u" %}
 {% assign events = site.data.events | sort: "Date"  %}
