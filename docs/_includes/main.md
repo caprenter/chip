@@ -94,7 +94,7 @@ Or just turn up and join in with the traditional music in the pub every Wednesda
 {% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
 {% endif %}
 
-<div class="card-group event-card text-dark mb-2">
+<div class="card-group event-card text-dark mb-2" id="{{ event.Date | date: '%A-%d-%B-%Y' }}">
 <div class="card mb-0 border-0">
 <div class="card-body py-4 border-bottom {% if event.Date == dateToday  %}bg-light{% endif %}">
 <div class="row">
