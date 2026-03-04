@@ -89,7 +89,7 @@ Or just turn up and join in with the traditional music in the pub every Wednesda
 {% include traditional-music.md wednesday=wednesdayDate %}
 {% assign unixtime = wednesdayDate | date: "%s" %}
 {% assign secondstoadd = 7 | times: 86400 %}
-{% assign WednesdayUnix = unixtime | plus: secondstoadd %}
+{% assign WednesdayUnix = unixtime | plus: secondstoadd | plus: 3600 %}
 {% assign wednesdayDate = WednesdayUnix | date: "%Y-%m-%d" %}
 {% assign wednesdayDateDayOfYear = wednesdayDate | date: "%j" %}
 {% endif %}
