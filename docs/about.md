@@ -9,7 +9,7 @@ Music at the Chip 'n' Ern is organised by volunteers, and supported by the manag
 
 **Want to play at the Chip 'n' Ern? Drop by or contact us via this [booking form](https://forms.gle/KFJNwX2jU95YL1rU8)**
 
-Along with the regular traditional music sessions on a Wednesday evening, we're establishing a low-cost, weekly music night where you can expect to find local singer songwriters honing their craft.
+Along with the regular traditional music sessions on a Wednesday evening, the Bingley Ukulele Club on the 1st, 3rd and 5th Thursdays, we're also creating a space where you can expect to find performances by local singer songwriters honing their craft.
 
 You might see new collaborations, people trying out new work, people performing for the first time, album launches, celebrations, and the rest. 
 
@@ -27,9 +27,9 @@ Capacity for fire regulations is 60 people, but it's more realistically a 30 per
 
 The space is approx 8m x 5m, with tables, seating and a small stage area.
 
-It is an ideal space for Music. Acoustic music and works well as an 'intimate' performance space. 
+It is an ideal space for acoustic music and it works well as an 'intimate' performance space. 
 
-It already hosts ad hoc music events, Vinyl Revival once a month (third Sunday), some meetings, and the Graphite club on alternate Wednesdays.
+As well as the Thursday music the space also hosts ad hoc music events, Vinyl Revival once a month (third Sunday), some meetings, and the Graphite club on alternate Wednesdays.
 
 Its biggest drawback is that it is an upstairs space accessed by stairs, so difficult for people with mobility issues.
 
