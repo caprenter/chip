@@ -77,7 +77,7 @@ Or just turn up and join in with the traditional music in the pub every Wednesda
 {% assign slug = event.Date | date:"%A-%d-%B-%Y" %}
 
 {% if dayTodayOfYear <= eventDayOfYear and wednesdayDateDayOfYear <= eventDayOfYear and count == 1 %}
-{% include traditional-music.md wednesday=wednesdayDate %}
+{% include traditional-music.md wednesday=wednesdayDate today=dateToday %}
 {% assign unixtime = wednesdayDate | date: "%s" %}
 {% assign secondstoadd = 7 | times: 86400 %}
 {% assign WednesdayUnix = unixtime | plus: secondstoadd %}

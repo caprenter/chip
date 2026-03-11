@@ -1,13 +1,14 @@
 {% assign wednesday = include.wednesday %}  
+{% assign today = include.today   %}
 <div class="card-group event-card text-dark mb-2">
 <div class="card mb-0 border-0">
-<div class="card-body py-4 border-bottom {% if event.Date == dateToday  %}bg-light{% endif %}">
+<div class="card-body py-4 border-bottom {% if wednesday == today  %}bg-light{% endif %}">
 <div class="row">
 <div class="col-lg-3 col-md-5 date pb-4">
 <p class="p-0 m-0 display-8">{{ wednesday | date: "%A" }}</p>
 <p class="p-0 m-0 display-1">{{ wednesday | date: "%d" }}</p>
 <p class="p-0 m-0 display-8">{{ wednesday | date: "%B" }}</p>
-{% if wednesday == dateToday  %}<h5 class="p-0 m-0 display-8 ">TODAY</h5>{% endif %}
+{% if wednesday == today  %}<h5 class="p-0 m-0 display-8 ">TODAY</h5>{% endif %}
 </div>
 <div class="col-lg-9 col-md-7">
 <div class="d-flex flex-column">
