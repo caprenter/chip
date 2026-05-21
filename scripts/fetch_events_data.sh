@@ -23,3 +23,17 @@ sed -i '1d' "../docs/_data/chip.csv"
 #cat "" >> "../docs/_data/events.csv"
 echo -e "\r" >> "../docs/_data/events.csv"
 cat "../docs/_data/chip.csv" >> "../docs/_data/events.csv"
+
+
+echo $1
+echo $2
+if [ $1 = update ]
+then
+git checkout main
+#git add _data/
+git commit -am "Automatic Update Live Music Data"
+fi
+if [ $2 = push ]
+then
+git push origin main
+fi
