@@ -18,10 +18,12 @@
 or The Bingley Ukulele Group<br>
 (1st/3rd/5th Thursday of the month).
 
+<!--
 ## Third Sunday of the month
 
 Come and be the **DJ** at **Vinyl Revival** on the 3rd Sunday of the month.<br>
-Playing **vinyl records** from 4pm to late.  
+Playing **vinyl records** from 4pm to late. 
+--> 
 
 ## Touring musicians, album launches...
 
@@ -33,7 +35,7 @@ We also host **ad hoc music events** featuring **touring musicians**, **album la
     <h1 class="display-5 fw-bold">Wanna play at the Chip'n' Ern?</h1>
     <div class="col-lg-6 mx-auto" markdown="1">
 
-Contact us via this <a href="https://forms.gle/KFJNwX2jU95YL1rU8">booking form</a>.
+Contact us via this <a href="https://forms.gle/KFJNwX2jU95YL1rU8">booking form</a> and check out our [information for performers]({% link about.md %}#information-for-performers).
 
 Or just turn up and join in with the traditional music in the pub every Wednesday evening, and the Bingley Ukulele Group that meets upstairs on the 1st, 3rd, and 5th Thursdays of the month.
 

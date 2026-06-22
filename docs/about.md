@@ -43,3 +43,40 @@ The main part of the pub is the bar which is at street level, so easily accessib
 
 You can find the Pick Up And Play traditional music sessions here every Wednesday evening from about 8pm.
 
+
+### Information for performers
+
+There is a small PA and some extra bits of equipment available.
+
+#### Mixer & Amp
+The amp/mixer is a Laney Theatre 6150 - a 6 channel, 150 watt PA/mixer with reverb and effect controls:
+
+* 6 Channel (BUT only 5 work!! each channel has low noise XLR and line inputs) 
+* Monitor Out
+* Reverb and effects controls on each channel 
+* Phono input 
+* EQ on each channel 
+* 5 Band Graphic Equaliser 
+* Headphone Out 
+* Reverb Footswitch input (no footswitch tho!)
+* 2 x Speaker Connections (Jack)
+
+#### Speakers & Stands
+
+* Two passive speakers that work with the amp
+* Two speaker stands
+
+#### Other equipment
+
+* Two mic stands
+* Approx 4 plug sockets and couple of four way adapters - but 
+
+#### You will need to bring
+
+Microphones, leads, extension cables, your instruments, amplifiers if you use them (you may want to go straight into the PA), DI boxes if you need them, (e.g. guitar) stands etc. 
+
+If you're not sure [contact us]({% link contact.md %})
+
+<div class="d-grid gap-2 d-sm-flex">
+<a type="button" class="btn btn-secondary btn-lg px-4 gap-3 text-white" href="https://forms.gle/KFJNwX2jU95YL1rU8">Booking Form</a>
+</div>
